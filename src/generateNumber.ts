@@ -4,7 +4,7 @@ export class GenerateNumber{
     }
     quantity:number;
 
-    genListNumbers(){
+   genListNumbers(){
         let listNumbers:number[] = [];
 
         while (listNumbers.length < this.quantity){
@@ -17,7 +17,7 @@ export class GenerateNumber{
         return listNumbers;
     }
     
-    getNumber(){
+    private getNumber(){
         const min = 1;
         const max = 60;
         let randomNumber = (Math.floor(Math.random() * (max - min + 1) + min));

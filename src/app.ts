@@ -19,7 +19,7 @@ app.post('/generatenumbers', (req: Request, res: Response) => {
 
     if (quantity > 60 || quantity < 1){
       responseWinLottery = new ResponseWin(`The quantity entered is invalid. Please enter a number greater than or equal to 1 and less than or equal to 60`, 400);
-      return res.json(responseWinLottery)
+      return res.status(400).json(responseWinLottery)
     }
     
     listNumbers = new GenerateNumber(quantity);

@@ -1,5 +1,5 @@
 # Description
-This repository was created using `Express` framework with Typescript.  Here we have one endpoint that draw numbers accordingly a previously `quantity` informed on requisition. The draw is based on rules of Mega Sena of Brazil.
+This repository was created using `Express` framework with Typescript.  Here we have one endpoint that draw numbers accordingly a previously *quantity* informed on requisition. The draw is based on rules of Mega Sena of Brazil.
 
 # Endpoints
 -`POST`  /generatenumbers  
